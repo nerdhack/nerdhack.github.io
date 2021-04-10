@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contáctenos</title>
+	<link href="css/estilos_cat.css" rel="stylesheet" type="text/css">
+	<style>
+		form{
+			font-size: large;
+			padding: 2em;
+		}
+	</style>
+</head>
+
+<body>
+<header class="tcatalogo">contactarnos</header>
+	
+<main>
+	<section>
+		<br>
+	  <form>
+			<label>Nombre:</label>
+		<input type="text" name="nom" placeholder="escriba su nombre">
+			<br><br>
+			<label>Contraseña:</label>
+		<input type="password" name="contra" placeholder="escriba su contraseña">> 
+			<br><br>
+			<label>Correo:</label>
+		<input type="email" name="correo" placeholder="escriba su correo">>
+			<br><br>
+		<label>Sexo:</label>
+			  <tr>
+			    <td><label>
+			      <input type="radio" name="sexo" value="0" id="sexo_0">
+			      Mujer</label></td>
+	      </tr>
+			  <tr>
+			    <td><label>
+			      <input type="radio" name="sexo" value="1" id="sexo_1">
+			      Hombre</label></td>
+				  <br>
+	      </tr>
+		  <br>
+		  <label>Comentario:</label>
+	    <select name="tipo">
+		  		<option value="0"></option>
+		  		<option value="1">Quejas</option>
+		  		<option value="2">Sugerencias</option>
+		  		<option value="3">Recomendaciones</option>
+		  		<option value="4">Reclamos</option>
+		  </select>
+		  <br><br>
+		  <textarea name="comentario" cols="80" rows="8" id="comentario"></textarea>
+		  <br>
+		  
+	    
+			  <input type="submit">
+      </form>
+	</section>
+</main>
+<footer class="piecatalogo">Todos los Derechos reservados. &copy; 2019</footer>
+</body>
+</html>
